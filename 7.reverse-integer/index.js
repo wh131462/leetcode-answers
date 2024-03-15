@@ -22,6 +22,7 @@
  * 	-231 31 - 1
  * 
  */
+// @QUESTION_START
 /**
  * @param {number} x
  * @return {number}
@@ -49,7 +50,7 @@ var reverse = function(x) {
     if(rev < MinSize || rev > MaxSize)return 0;
     return  rev;
 }
-
+// @QUESTION_END
 /**
  * Test case
  */
